@@ -33,10 +33,6 @@ df.drop(labels=['RowNumber', 'CustomerId','Surname'],
 
 df.dropna(inplace = True)
 
-categorical_features = ["Geography","Gender", "Geography","NumOfProducts","HasCrCard","IsActiveMember"]
-
-numerical_features = ["CreditScore","Age", "Tenure","Balance","EstimatedSalary"]
-
 
 
 df
